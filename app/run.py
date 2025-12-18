@@ -12,12 +12,12 @@ import json
 edge_options = Options()
 edge_options.add_argument("--start-maximized")
 
-# ======================== kill all tasks of ms edge for this
+# ======================== kill all tasks of ms edge for this.. multiple profile browser
 
-edge_options.add_argument(
-    r"--user-data-dir=C:\Users\ASUS\AppData\Local\Microsoft\Edge\User Data"
-)
-edge_options.add_argument("--profile-directory=Profile 1")
+# edge_options.add_argument(
+#     r"--user-data-dir=C:\Users\ASUS\AppData\Local\Microsoft\Edge\User Data"
+# )
+# edge_options.add_argument("--profile-directory=Profile 1")
 
 
 
@@ -54,3 +54,4 @@ for words in search_words:
     time.sleep(8)  # optional (visual pause)
 
 # driver.quit()
+
